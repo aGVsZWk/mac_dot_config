@@ -1,6 +1,6 @@
 # mac_dot_config
 
-mac 下 jetbrains 快捷操作
+mac 下 jetbrains 常用操作，如遇到快捷键不生效，goland是最全的，可照此进行配置。
 
 # 终端打开方式
 
@@ -31,22 +31,18 @@ Tools--Create Command-line Launcher，然后就可以用对应命令打开ide，
 
 ## 编辑操作
 
-| 快捷键           | 说明                      |
-|---------------|-------------------------|
-| cmd + d       | 重复一行                    |
-| cmd + y       | 删除一行                    |
-| cmd + j       | 合并下一行                   |
-| control + u/k | 删除到行首/尾                 |
-| control + h   | 退格                      |
-| cmd + delete  | 删除到行首                   |
-| cmd + 上/下     | 当前行上移/下移                |
-| cmd + [/]     | 代码段折叠/展开，加上shift折叠/展开所有 |
-| cmd + .       | 展开/折叠切换，仅限括号            |
-
-## 功能操作
-
 | 快捷键                     | 说明                         |
 |-------------------------|----------------------------|
+| cmd + d                 | 重复一行                       |
+| cmd + y                 | 删除一行                       |
+| cmd + j                 | 合并下一行                      |
+| shift + enter           | 插入空行                       |
+| control + u/k           | 删除到行首/尾                    |
+| control + h             | 退格                         |
+| cmd + delete            | 删除到行首                      |
+| cmd + 上/下               | 当前行上移/下移                   |
+| cmd + [/]               | 代码段折叠/展开，加上shift折叠/展开所有    |
+| cmd + .                 | 展开/折叠切换，仅限括号               |
 | cmd + c                 | 复制操作，如果没有选择则复制当前行          |
 | cmd + shift + c         | 复制当前路径                     |
 | control + j             | 查看文档、签名                    |
@@ -56,7 +52,6 @@ Tools--Create Command-line Launcher，然后就可以用对应命令打开ide，
 | control + enter         | 自动生成子类/重写/单测等等             |
 | opt + enter             | 快速自动修错                     |
 | control + shift + enter | 同上                         |
-| shift + enter           | 插入空行                       |
 | cmd + shift + enter     | 自动补全并跳转光标                  |
 | xxx.for/len/nil         | 代码片段补全                     |
 | control + g             | 去到定义，相当于鼠标左击               |
@@ -83,17 +78,18 @@ Tools--Create Command-line Launcher，然后就可以用对应命令打开ide，
 | cmd + n                         | 创建文件               |
 | cmd + `                         | 打开文件窗口             |
 | cmd + b                         | 打开书签窗口             |
-| cmd + shift + b                 | 添加金色书签             |
+| cmd + shift + b                 | 添加/取消书签            |
 | control + w， 0-9                | 添加0-9号书签           |
 | control + 0-9                   | 跳转到0-9号书签          |
+| cmd + 1-9                       | 跳转到1-9号打开tab       |
 | cmd + s                         | 打开代码结构窗口           |
 | cmd + ,                         | 打开配置窗口             |
 | cmd + tab                       | 可带shift，切换打开的窗口    |
+| shift + Esc                     | 书签/代码结构/目录栏关闭      |
 | cmd + ``                        | 切换同任务窗口，系统快捷键      |
 | cmd + m                         | 最小化，系统快捷键          | 
 | cmd + h                         | 隐藏，系统快捷键           | 
 | cmd + q                         | 完全退出，系统快捷键         |
-| shift + Esc                     | 书签/代码结构/目录栏关闭      |
 
 
 ## 搜索与替换操作
@@ -112,10 +108,9 @@ Tools--Create Command-line Launcher，然后就可以用对应命令打开ide，
 | control + shift + d | 调试当前 |
 | control + shift + r | 运行当前 |
 
-
-
 ## todo
 - 断点调试
 - 目录/书签展开折叠快捷键不生效bug
-- 向下分屏总是多出一个bug
+- control + shift + - 向下分屏总是多出一个bug
+
 

@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$HOME/bin:/usr/local/bin:/opt/homebrew/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/opt/homebrew/bin:/usr/local/opt/mysql-client/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -11,6 +11,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="powerlevel10k/powerlevel10k"
 # ZSH_THEME="josh"
+# ZSH_THEME="suvash"    # This is cool!
 ZSH_THEME="random"
 
 # Set list of themes to pick from when loading at random
@@ -129,3 +130,8 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# fuck!!!arm64, amd64
+# vic()
+# {
+#     docker run --rm -it -v "$(pwd)":/host_path -w /host_path -e XDG_CONFIG_HOME='/root/.config/' qq905713813/luke-vim:latest vim $*
+# }
