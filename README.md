@@ -9,7 +9,7 @@ Tools--Create Command-line Launcher，然后就可以用对应命令打开ide，
 - `charm xxx`
 - `golang xxx`
 
-# 快捷键
+# jetbrains快捷键
 
 已经取消双击 shift 打开搜索窗口的设置。
 
@@ -112,5 +112,30 @@ Tools--Create Command-line Launcher，然后就可以用对应命令打开ide，
 - 断点调试
 - 目录/书签展开折叠快捷键不生效bug
 - control + shift + - 向下分屏总是多出一个bug
+
+
+
+# iterm2 快捷键
+https://www.cnblogs.com/liqiangchn/p/14280203.html
+
+| 快捷键             | 说明        |
+|-----------------|-----------|
+| cmd + n         | 新的终端 |
+| cmd + t         | 新的tab页    |
+| cmd + w | 关闭当前页    |
+| cmd + 数字         | 指定tab    |
+| cmd + shift + r | 所有文件替换    |
+| cmd + 上/下 | 上下屏幕滚动    |
+| cmd + 左/右 |  前后tab滚动  |
+| cmd + home/end | 上下tab到顶/底    |
+| cmd + pageUp/pageDown | 上下屏幕翻页    |
+| cmd + d         | 垂直分屏 |
+| cmd + shift + d        | 水平分屏    |
+| cmd + [/] | 切换窗口 |
+| cmd + shift + h | 历史剪切板 |
+| cmd + ; | 历史命令提示 |
+| cmd + opt + b | 历史窗口回放 |
+
+
 
 
