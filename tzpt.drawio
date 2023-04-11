@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T08:30:36.181Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="TT40wAEAVXd5rcW8ONp3" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T08:31:12.446Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="UcQ-wV_25Ub-2x_DQ9La" version="21.1.5" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="896" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,14 +162,8 @@
         <mxCell id="gVVerqDkxgE1YXrgiJ0I-48" value="熔断配置" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gVVerqDkxgE1YXrgiJ0I-70">
           <mxGeometry x="5" y="50" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gVVerqDkxgE1YXrgiJ0I-5" value="决策引擎" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="313.45238095238096" y="660" width="100.71428571428572" height="40.48951048951049" as="geometry" />
-        </mxCell>
         <mxCell id="gVVerqDkxgE1YXrgiJ0I-6" value="特征服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="229.52380952380952" y="740.979020979021" width="268.57142857142856" height="40.48951048951049" as="geometry" />
-        </mxCell>
-        <mxCell id="gVVerqDkxgE1YXrgiJ0I-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gVVerqDkxgE1YXrgiJ0I-5" target="gVVerqDkxgE1YXrgiJ0I-6">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gVVerqDkxgE1YXrgiJ0I-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.363;exitY=1.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gVVerqDkxgE1YXrgiJ0I-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
