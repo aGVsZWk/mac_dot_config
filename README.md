@@ -24,10 +24,14 @@ Tools--Create Command-line Launcher，然后就可以用对应命令打开ide，
 | cmd + l               | 选中整行                |
 | cmd + g               | 跳到指定的行列             |
 | control + m           | 跳到匹配括号              |
-| cmd + 左/右             | 按单词移动               |
+| cmd + 左/右             | 按单词移动，可同时按shift进行选择 |
 | control + ;           | 插件快捷跳到想去的地方         |
 | control + q           | 当前部分多光标选择           |
 | cmd + shift + 上/下     | 拉出多光标               |
+| cmd + p               | 文件跳转                |
+| cmd + o               | 文本跳转                |
+| control + tab         | 打开的文件切换,shift反向切换   |
+| cmd + shift + {/}     | 项目切换                |
 
 ## 编辑操作
 
@@ -56,6 +60,8 @@ Tools--Create Command-line Launcher，然后就可以用对应命令打开ide，
 | xxx.for/len/nil         | 代码片段补全                     |
 | control + g             | 去到定义，相当于鼠标左击               |
 | cmd + opt + l           | 自动格式化，pycharm将默认行为改为了blank |
+| cmd + shift + u         | 大小写转换                      |
+| control + e             | 提示补全                       |
 
 ## 界面与窗口操作
 
@@ -84,12 +90,13 @@ Tools--Create Command-line Launcher，然后就可以用对应命令打开ide，
 | cmd + 1-9                       | 跳转到1-9号打开tab       |
 | cmd + s                         | 打开代码结构窗口           |
 | cmd + ,                         | 打开配置窗口             |
-| cmd + tab                       | 可带shift，切换打开的窗口    |
+| control + tab                   | 可带shift，切换打开的窗口    |
 | shift + Esc                     | 书签/代码结构/目录栏关闭      |
 | cmd + ``                        | 切换同任务窗口，系统快捷键      |
 | cmd + m                         | 最小化，系统快捷键          | 
 | cmd + h                         | 隐藏，系统快捷键           | 
 | cmd + q                         | 完全退出，系统快捷键         |
+| cmd + i                         | 查看AI窗口             |
 
 
 ## 搜索与替换操作
@@ -101,6 +108,13 @@ Tools--Create Command-line Launcher，然后就可以用对应命令打开ide，
 | cmd + shift + f | 所有文件搜索    |
 | cmd + r         | 当前文件替换    |
 | cmd + shift + r | 所有文件替换    |
+
+
+## 文档
+| 快捷键     | 说明        |
+|---------|-----------|
+| cmd + k | 查看函数签名，缩略 |
+| cmd + u | 查看函数签名，完整 |
 
 ## 调试与运行
 | 快捷键                 | 说明   |
@@ -118,24 +132,25 @@ Tools--Create Command-line Launcher，然后就可以用对应命令打开ide，
 # iterm2 快捷键
 https://www.cnblogs.com/liqiangchn/p/14280203.html
 
-| 快捷键             | 说明        |
-|-----------------|-----------|
-| cmd + n         | 新的终端 |
-| cmd + t         | 新的tab页    |
-| cmd + w | 关闭当前页    |
-| cmd + 数字         | 指定tab    |
-| cmd + shift + r | 所有文件替换    |
-| cmd + 上/下 | 上下屏幕滚动    |
-| cmd + 左/右 |  前后tab滚动  |
-| cmd + home/end | 上下tab到顶/底    |
+| 快捷键                   | 说明        |
+|-----------------------|-----------|
+| cmd + n               | 新的终端      |
+| cmd + t               | 新的tab页    |
+| cmd + w               | 关闭当前页     |
+| cmd + 数字              | 指定tab     |
+| cmd + shift + r       | 所有文件替换    |
+| cmd + 上/下             | 上下屏幕滚动    |
+| cmd + 左/右             | 前后tab滚动   |
+| cmd + shift + {/}     | tab切换     |
+| cmd + home/end        | 上下tab到顶/底 |
 | cmd + pageUp/pageDown | 上下屏幕翻页    |
-| cmd + d         | 垂直分屏 |
-| cmd + shift + d        | 水平分屏    |
-| cmd + [/] | 切换窗口 |
-| cmd + shift + h | 历史剪切板 |
-| cmd + ; | 历史命令提示 |
-| cmd + opt + b | 历史窗口回放 |
+| cmd + d               | 垂直分屏      |
+| cmd + shift + d       | 水平分屏      |
+| cmd + [/]             | 切换窗口      |
+| cmd + shift + h       | 历史剪切板     |
+| cmd + ;               | 历史命令提示    |
+| cmd + opt + b         | 历史窗口回放    |
+| cmd + f               | 查找        |
 
-
-
-
+# VSCode && Cursor
+`cursor://profile/github/06dfefc9bb63393de702a5b28ef9e147`

@@ -1,0 +1,13 @@
+#!/usr/bin/expect
+
+set ip [lindex $argv 0]
+spawn ssh -i /Users/kj/.ssh/id_rsa_xiaoying lei.he@jms.yingzhongtong.com -p36000
+
+expect {
+    "lei.he" {
+    send "\r"
+    send "$ip\r"
+    }
+}
+interact
+
